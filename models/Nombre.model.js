@@ -13,7 +13,10 @@ class Nombre {
     this.apellidoPaterno = apellidoPaterno;
     this.apellidoMaterno = apellidoMaterno;
   }
-  getNombreCompleto = () => {};
-  getApellidoNombre = () => {};
-  getIniciales = () => {};
+  getNombreCompleto = () =>
+    `${this.nombre} ${this.apellidoPaterno} ${this.apellidoMaterno}`;
+  getApellidoNombre = () =>
+    `${this.apellidoPaterno} ${this.apellidoMaterno} ${this.nombre}`;
+  getIniciales = () =>
+    `${this.nombre[0].toUpperCase()}${this.apellidoPaterno[0].toUpperCase()} ${this.apellidoMaterno[0].toUpperCase()}`;
 }

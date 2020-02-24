@@ -12,8 +12,8 @@ class Hospital {
    *
    * @param {Nombre} nombre
    * @param {string} direccion
-   * @param {Array <Doctor>} doctores
-   * @param {Array <Cita>} citas
+   * @param {Array.<Doctor>} doctores
+   * @param {Array.<Cita>} citas
    */
   constructor(nombre, direccion, doctores, citas) {
     this.nombre = nombre;
