@@ -6,6 +6,11 @@ class Doctor extends Persona {
     this.especialidad = especialidad;
     this.cedula = cedula;
   }
-  getPerfil = () => {};
+  getPerfil = () => {
+    let { getNombreCompleto } = this.nombre;
+    return `${this.cedula}, ${this.especialidad}, ${getNombreCompleto()}, ${
+      this.telefono
+    }`;
+  };
 }
 export default Doctor;
