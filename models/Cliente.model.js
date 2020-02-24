@@ -16,7 +16,11 @@ class Cliente {
     this.fechaNacimiento = fechaNacimiento;
     this.telefono = telefono;
   }
-  getPerfil = () => {};
+  getPerfil = () => {
+    let { getNombreCompleto } = this.nombre;
+    let {} = this.fechaNacimiento;
+    return ``;
+  };
 }
 
 export default Cliente;

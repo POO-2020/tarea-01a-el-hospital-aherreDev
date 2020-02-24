@@ -8,3 +8,4 @@ class Doctor extends Persona {
   }
   getPerfil = () => {};
 }
+export default Doctor;

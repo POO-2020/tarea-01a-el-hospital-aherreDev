@@ -13,3 +13,4 @@ class Cita {
   constructor(fecha, hora, doctor, paciente) {}
   getCita = () => {};
 }
+export default Cita;

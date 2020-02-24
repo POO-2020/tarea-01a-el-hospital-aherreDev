@@ -20,3 +20,4 @@ class Nombre {
   getIniciales = () =>
     `${this.nombre[0].toUpperCase()}${this.apellidoPaterno[0].toUpperCase()} ${this.apellidoMaterno[0].toUpperCase()}`;
 }
+export default Nombre;

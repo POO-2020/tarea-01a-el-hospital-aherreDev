@@ -1,8 +1,8 @@
 // ? Models
 import Persona from "./Persona.model.js";
 
-class Cliente extends Persona {
+class Paciente extends Persona {
   getPerfil = () => {};
 }
 
-export default Cliente;
+export default Paciente;

@@ -2,7 +2,7 @@
 import Fecha from "./Fecha.model";
 import Nombre from "./Nombre.model";
 
-class Cliente {
+class Persona {
   nombre;
   fechaNacimiento;
   telefono;
@@ -18,4 +18,4 @@ class Cliente {
   }
 }
 
-export default Cliente;
+export default Persona;

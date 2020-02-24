@@ -26,3 +26,4 @@ class Hospital {
   registrarCita = () => {};
   listarCitas = () => {};
 }
+export default Hospital;
