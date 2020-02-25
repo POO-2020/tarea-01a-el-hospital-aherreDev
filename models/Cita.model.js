@@ -16,9 +16,14 @@ class Cita {
    * @param {Doctor} doctor
    * @param {Paciente} paciente
    */
-  constructor(fecha, hora, doctor, paciente) {}
+  constructor(fecha, hora, doctor, paciente) {
+    this.fecha = fecha;
+    this.hora = hora;
+    this.doctor = doctor;
+    this.paciente = paciente;
+  }
   getCita = () => {
-    let { getFecha } = this.fechaNacimiento;
+    let { getFecha } = this.fecha;
     let { getFormato24Horas } = this.hora;
     return `${getFecha()}, ${getFormato24Horas()}, ${this.doctor.getNombre()}, ${this.paciente.getNombre()}`;
   };
