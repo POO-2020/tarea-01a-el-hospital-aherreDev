@@ -6,8 +6,8 @@ import Cita from "./Cita.model";
 class Hospital {
   nombre;
   direccion;
-  doctores;
-  citas;
+  doctores = [];
+  citas = [];
   /**
    *
    * @param {Nombre} nombre
@@ -21,9 +21,17 @@ class Hospital {
     this.doctores = doctores;
     this.citas = citas;
   }
-  registrarDoctor = () => {};
-  listarDoctores = () => {};
-  registrarCita = () => {};
-  listarCitas = () => {};
+  registrarDoctor = doctor => {
+    this.doctores.push(doctor);
+  };
+  listarDoctores = () => {
+    this.doctores.forEach(doctor => console.log(doctor.getPerfil()));
+  };
+  registrarCita = cita => {
+    this.citas.push(cita);
+  };
+  listarCitas = () => {
+    this.citas.forEach(cita => console.log(cita.getCita()));
+  };
 }
 export default Hospital;
