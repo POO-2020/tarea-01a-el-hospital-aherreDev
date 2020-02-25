@@ -1,6 +1,6 @@
 // ? Models
-import Fecha from "./Fecha.model";
-import Nombre from "./Nombre.model";
+import Fecha from "./Fecha.model.js";
+import Nombre from "./Nombre.model.js";
 
 class Persona {
   nombre;

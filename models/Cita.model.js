@@ -1,8 +1,8 @@
 // ? Models
-import Fecha from "./Fecha.model";
-import Tiempo from "./Tiempo.model";
-import Doctor from "./Doctor.model";
-import Paciente from "./Paciente.model";
+import Fecha from "./Fecha.model.js";
+import Tiempo from "./Tiempo.model.js";
+import Doctor from "./Doctor.model.js";
+import Paciente from "./Paciente.model.js";
 
 class Cita {
   fecha;

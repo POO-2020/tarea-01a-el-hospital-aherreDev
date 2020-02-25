@@ -1,7 +1,7 @@
 // ? Models
-import Nombre from "./Nombre.model";
-import Doctor from "./Doctor.model";
-import Cita from "./Cita.model";
+import Nombre from "./Nombre.model.js";
+import Doctor from "./Doctor.model.js";
+import Cita from "./Cita.model.js";
 
 class Hospital {
   nombre;

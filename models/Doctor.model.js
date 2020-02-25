@@ -1,5 +1,5 @@
 // ? Models
-import Persona from "./Persona.model";
+import Persona from "./Persona.model.js";
 
 class Doctor extends Persona {
   constructor(especialidad, cedula) {
