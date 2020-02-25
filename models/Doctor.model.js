@@ -12,5 +12,6 @@ class Doctor extends Persona {
       this.telefono
     }`;
   };
+  getNombre = () => "Dr." + this.nombre.getNombreCompleto();
 }
 export default Doctor;

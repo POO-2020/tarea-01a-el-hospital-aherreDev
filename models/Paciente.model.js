@@ -7,6 +7,7 @@ class Paciente extends Persona {
     let { getFecha } = this.fechaNacimiento;
     return `${getNombreCompleto()}, ${getFecha()}, ${this.telefono}`;
   };
+  getNombre = () => this.nombre.getNombreCompleto();
 }
 
 export default Paciente;
